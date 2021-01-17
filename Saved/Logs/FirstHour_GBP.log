@@ -1418,3 +1418,82 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.01.17-03.23.25:657][974]AssetCheck: New page: Asset Save: multiple assets
 [2021.01.17-03.23.25:658][974]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/my_first_level_BuiltData.my_first_level_BuiltData
 [2021.01.17-03.23.25:658][974]LogContentValidation: Display: Validating World /Game/Levels/my_first_level.my_first_level
+[2021.01.17-03.25.03:052][530]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP_Actors/BP_Lamp.BP_Lamp
+[2021.01.17-03.25.03:513][530]LogSlate: Took 0.006360 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2021.01.17-03.29.05:084][214]LogSlate: Window 'Color Picker' being destroyed
+[2021.01.17-03.29.08:911][304]BlueprintLog: New page: Compile BP_Lamp
+[2021.01.17-03.29.08:996][304]LogUObjectHash: Compacting FUObjectHashTables data took   2.07ms
+[2021.01.17-03.29.09:625][330]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_Actors/BP_Lamp" FILE="../../../../../../Users/garet/Unreal Projects/FirstHour/FirstHour_GBP/Content/BP_Actors/BP_Lamp.uasset" SILENT=true
+[2021.01.17-03.29.09:668][330]LogSavePackage: Moving '../../../../../../Users/garet/Unreal Projects/FirstHour/FirstHour_GBP/Saved/BP_Lamp067DA3AC431097052050CE84A2E19906.tmp' to '../../../../../../Users/garet/Unreal Projects/FirstHour/FirstHour_GBP/Content/BP_Actors/BP_Lamp.uasset'
+[2021.01.17-03.29.09:680][330]AssetCheck: New page: Asset Save: BP_Lamp
+[2021.01.17-03.29.09:680][330]LogContentValidation: Display: Validating Blueprint /Game/BP_Actors/BP_Lamp.BP_Lamp
+[2021.01.17-03.29.11:545][438]LogSlate: Window 'BP_Lamp' being destroyed
+[2021.01.17-03.29.11:552][438]LogSlate: Window 'BP_Lamp' being destroyed
+[2021.01.17-03.29.11:564][438]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2021.01.17-03.29.11:564][438]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.17-03.29.13:599][550]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.17-03.29.13:608][550]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.17-03.29.13:608][550]PIE: New page: PIE session: my_first_level (Jan 16, 2021, 3:29:13 PM)
+[2021.01.17-03.29.13:609][550]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_my_first_level
+[2021.01.17-03.29.13:624][550]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015030s)
+[2021.01.17-03.29.13:625][550]LogAIModule: Creating AISystem for world my_first_level
+[2021.01.17-03.29.13:626][550]LogPlayLevel: PIE: World Init took: (0.001804s)
+[2021.01.17-03.29.13:626][550]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/my_first_level.my_first_level to /Game/Levels/UEDPIE_0_my_first_level.my_first_level (0.017028s)
+[2021.01.17-03.29.13:645][550]LogUObjectHash: Compacting FUObjectHashTables data took   4.09ms
+[2021.01.17-03.29.13:646][550]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2021.01.17-03.29.13:646][550]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.17-03.29.13:646][550]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.17-03.29.13:646][550]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.17-03.29.13:646][550]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.17-03.29.13:646][550]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.17-03.29.13:646][550]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.17-03.29.13:646][550]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.17-03.29.13:646][550]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.17-03.29.13:646][550]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.17-03.29.13:646][550]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.17-03.29.13:650][550]LogAudioMixer: Warning: Did not find the channel type flags for audio device 'Headset (Studio Wireless Hands-Free AG Audio)'. Reverting to a default channel ordering.
+[2021.01.17-03.29.13:650][550]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.17-03.29.13:650][550]LogAudioMixer: Display: 1: FrontRight
+[2021.01.17-03.29.13:656][550]LogAudioMixer: Display: Using Audio Device Headset (Studio Wireless Hands-Free AG Audio)
+[2021.01.17-03.29.13:656][550]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.17-03.29.13:656][550]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.17-03.29.13:656][550]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.17-03.29.13:656][550]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.17-03.29.13:657][550]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.01.17-03.29.13:657][550]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.01.17-03.29.13:672][550]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.01.17-03.29.13:672][550]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.01.17-03.29.13:672][550]LogInit: FAudioDevice initialized.
+[2021.01.17-03.29.13:672][550]LogAudio: Display: Audio Device (ID: 7) registered with world 'my_first_level'.
+[2021.01.17-03.29.13:679][550]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.01.17-03.29.13:683][550]LogWorld: Bringing World /Game/Levels/UEDPIE_0_my_first_level.my_first_level up for play (max tick rate 60) at 2021.01.16-21.29.13
+[2021.01.17-03.29.13:683][550]LogWorld: Bringing up level for play took: 0.003297
+[2021.01.17-03.29.13:683][550]LogOnline: OSS: Creating online subsystem instance for: :Context_14
+[2021.01.17-03.29.15:349][550]PIE: Server logged in
+[2021.01.17-03.29.15:351][550]PIE: Play in editor total start time 1.744 seconds.
+[2021.01.17-03.29.27:138][240]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.17-03.29.27:139][240]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_my_first_level
+[2021.01.17-03.29.27:139][240]LogWorld: UWorld::CleanupWorld for my_first_level, bSessionEnded=true, bCleanupResources=true
+[2021.01.17-03.29.27:142][240]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.17-03.29.27:155][240]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.17-03.29.27:185][240]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.17-03.29.27:209][240]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.01.17-03.29.27:209][240]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.01.17-03.29.27:210][240]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.01.17-03.29.27:228][240]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.17-03.29.27:231][240]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2021.01.17-03.29.27:258][241]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2021.01.17-03.29.29:583][299]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2021.01.17-03.29.29:640][299]LogSavePackage: Moving '../../../../../../Users/garet/Unreal Projects/FirstHour/FirstHour_GBP/Saved/my_first_level5303F3AD425C77EE0E6887B361A6C8C1.tmp' to '../../../../../../Users/garet/Unreal Projects/FirstHour/FirstHour_GBP/Content/Levels/my_first_level.umap'
+[2021.01.17-03.29.29:656][299]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/my_first_level_BuiltData" FILE="../../../../../../Users/garet/Unreal Projects/FirstHour/FirstHour_GBP/Content/Levels/my_first_level_BuiltData.uasset" SILENT=true
+[2021.01.17-03.29.29:765][299]LogSavePackage: Moving '../../../../../../Users/garet/Unreal Projects/FirstHour/FirstHour_GBP/Saved/my_first_level_BuiltData43FF454046DBDE179C9D86AF56F27624.tmp' to '../../../../../../Users/garet/Unreal Projects/FirstHour/FirstHour_GBP/Content/Levels/my_first_level_BuiltData.uasset'
+[2021.01.17-03.29.29:778][299]AssetCheck: New page: Asset Save: multiple assets
+[2021.01.17-03.29.29:778][299]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/my_first_level_BuiltData.my_first_level_BuiltData
+[2021.01.17-03.29.29:778][299]LogContentValidation: Display: Validating World /Game/Levels/my_first_level.my_first_level
+[2021.01.17-03.30.26:978][757]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2021.01.17-03.30.27:037][757]LogSavePackage: Moving '../../../../../../Users/garet/Unreal Projects/FirstHour/FirstHour_GBP/Saved/my_first_level9A7903884DEEC981087954892BC7B7E4.tmp' to '../../../../../../Users/garet/Unreal Projects/FirstHour/FirstHour_GBP/Content/Levels/my_first_level.umap'
+[2021.01.17-03.30.27:053][757]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/my_first_level_BuiltData" FILE="../../../../../../Users/garet/Unreal Projects/FirstHour/FirstHour_GBP/Content/Levels/my_first_level_BuiltData.uasset" SILENT=true
+[2021.01.17-03.30.27:155][757]LogSavePackage: Moving '../../../../../../Users/garet/Unreal Projects/FirstHour/FirstHour_GBP/Saved/my_first_level_BuiltData8A58BBA64F74E895733E1CAFD665149D.tmp' to '../../../../../../Users/garet/Unreal Projects/FirstHour/FirstHour_GBP/Content/Levels/my_first_level_BuiltData.uasset'
+[2021.01.17-03.30.27:169][757]AssetCheck: New page: Asset Save: multiple assets
+[2021.01.17-03.30.27:169][757]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/my_first_level_BuiltData.my_first_level_BuiltData
+[2021.01.17-03.30.27:169][757]LogContentValidation: Display: Validating World /Game/Levels/my_first_level.my_first_level
